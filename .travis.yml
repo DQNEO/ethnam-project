@@ -2,4 +2,4 @@ language: php
 
 # custome build
 # see http://docs.travis-ci.com/user/customizing-the-build/
-install: make
+install: make travis
