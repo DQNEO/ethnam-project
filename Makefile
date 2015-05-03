@@ -6,6 +6,8 @@ project: project-base
 	vendor/bin/ethnam-generator add-action hello
 	vendor/bin/ethnam-generator add-view -t hello
 	vendor/bin/ethnam-generator add-template hello2
+	vendor/bin/ethnam-generator add-entry-point -g cli mycli
+	vendor/bin/ethnam-generator add-entry-point -g www mywww
 
 project-base: vendor
 	vendor/bin/ethnam-generator add-project -b . Sample
