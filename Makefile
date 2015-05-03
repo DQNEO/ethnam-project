@@ -14,7 +14,7 @@ composer-local:
 composer-github:
 	ln -s -f composer.json.github composer.json
 
-clean:
+clean-app:
 	rm app bin etc lib locale log schema skel template tmp www -rf
 
 destroy: clean
