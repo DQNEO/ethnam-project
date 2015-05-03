@@ -20,3 +20,8 @@ clean-app:
 destroy: clean
 	rm .ethna composer.lock vendor -rf
 
+test: project
+	test -d app
+	test -d www
+	test -e .ethna
+
