@@ -8,6 +8,10 @@ project: project-base
 	vendor/bin/ethnam-generator add-template hello2
 	vendor/bin/ethnam-generator add-entry-point -g cli mycli
 	vendor/bin/ethnam-generator add-entry-point -g www mywww
+	vendor/bin/ethnam-generator clear-cache
+	vendor/bin/ethnam-generator i18n
+	vendor/bin/ethnam-generator help
+	vendor/bin/ethnam-generator
 
 project-base: vendor
 	vendor/bin/ethnam-generator add-project -b . Sample
