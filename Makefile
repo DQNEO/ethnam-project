@@ -1,8 +1,8 @@
-local:  composer-local  vendor project
+local:  composer-local  vendor project-base
 
-travis: composer-github vendor project
+travis: composer-github vendor project-base
 
-project: vendor
+project-base: vendor
 	vendor/bin/ethnam-generator add-project -b . Sample
 
 vendor:
