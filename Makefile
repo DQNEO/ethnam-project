@@ -25,7 +25,7 @@ composer-local:
 composer-github:
 	ln -s -f composer.json.github composer.json
 
-clean-app:
+clean:
 	rm .ethna app bin etc lib locale log schema skel template tmp www -rf
 
 destroy: clean
