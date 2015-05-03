@@ -1,3 +1,5 @@
+local:  composer-local  vendor project
+
 travis: composer-github vendor project
 
 project: vendor
