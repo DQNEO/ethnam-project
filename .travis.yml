@@ -3,3 +3,6 @@ language: php
 # custome build
 # see http://docs.travis-ci.com/user/customizing-the-build/
 install: make travis
+
+# see http://docs.travis-ci.com/user/build-configuration/
+script: make test
