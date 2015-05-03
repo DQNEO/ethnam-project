@@ -1,0 +1,7 @@
+{
+  "require" : {
+    "dqneo/ethnam-generator": "dev-master",
+    "dqneo/ethnam": "dev-generator",
+    "smarty/smarty" : "2.*"
+  }
+}
