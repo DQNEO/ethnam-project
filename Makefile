@@ -1,6 +1,5 @@
 travis: composer-github vendor project
 
-
 project: vendor
 	vendor/bin/ethnam-generator add-project -b . Sample
 
