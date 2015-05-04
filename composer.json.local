@@ -12,6 +12,7 @@
   "require" : {
     "ethnam/generator": "dev-master",
     "dqneo/ethnam": "dev-generator",
+    "ethnam/getopt": "dev-master",
     "smarty/smarty" : "2.*"
   }
 }
