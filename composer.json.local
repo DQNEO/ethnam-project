@@ -1,4 +1,7 @@
 {
+  "name" : "ethnam/project",
+  "description" : "a project for CI test",
+  "license": "MIT",
   "repositories": [
     {
       "type": "vcs",
