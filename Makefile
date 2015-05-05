@@ -14,7 +14,7 @@ project: project-base
 	vendor/bin/ethnam-generator
 
 project-base: vendor
-	vendor/bin/ethnam-generator add-project -b . Sample
+	vendor/bin/ethnam-generator add-project -b . My
 
 vendor:
 	composer install
