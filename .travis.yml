@@ -1,8 +1,18 @@
 language: php
+php:
+  - 7.0
+  - 5.6
+  - 5.5
+  - 5.4
+  - hhvm
 
-# custome build
+  # custome build
 # see http://docs.travis-ci.com/user/customizing-the-build/
 install: make travis
 
 # see http://docs.travis-ci.com/user/build-configuration/
 script: make test
+
+matrix:
+  allow_failures:
+    - php: hhvm
