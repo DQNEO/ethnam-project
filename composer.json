@@ -3,5 +3,8 @@
     "ethnam/generator": "dev-master",
     "dqneo/ethnam": "dev-master",
     "smarty/smarty" : "2.*"
+  },
+  "scripts" : {
+    "post-install-cmd" : ["vendor/bin/ethnam-generator add-project -b . My"]
   }
 }
