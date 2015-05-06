@@ -6,7 +6,7 @@ php:
   - 5.4
   - hhvm
 
-  # custome build
+# custome build
 # see http://docs.travis-ci.com/user/customizing-the-build/
 install: make travis
 
