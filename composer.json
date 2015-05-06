@@ -3,7 +3,7 @@
   "description" : "a sample project of Ethnam",
   "license": "BSD-4-Clause",
   "authors": [
-    { "name": "DQNEO", "role" : "Administrator"},
+    { "name": "DQNEO", "role" : "Administrator"}
   ],
   "require" : {
     "ethnam/generator": "dev-master",
