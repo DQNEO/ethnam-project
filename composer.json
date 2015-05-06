@@ -2,6 +2,9 @@
   "name" : "ethnam/project",
   "description" : "a sample project of Ethnam",
   "license": "BSD-4-Clause",
+  "authors": [
+    { "name": "DQNEO", "role" : "Administrator"},
+  ],
   "require" : {
     "ethnam/generator": "dev-master",
     "dqneo/ethnam": "dev-master",
