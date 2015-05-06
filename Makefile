@@ -1,8 +1,8 @@
-local:  composer-local  vendor project-base
+local:  composer-local  vendor project
 
-travis: composer-github vendor project-base
+travis: composer-github vendor project
 
-project: project-base
+generate-files: project
 	vendor/bin/ethnam-generator add-action hello
 	vendor/bin/ethnam-generator add-view -t hello
 	vendor/bin/ethnam-generator add-template hello2
@@ -13,7 +13,7 @@ project: project-base
 	vendor/bin/ethnam-generator help
 	vendor/bin/ethnam-generator
 
-project-base: vendor
+project: vendor
 	vendor/bin/ethnam-generator add-project -b . My
 
 vendor:
@@ -31,7 +31,7 @@ clean:
 destroy: clean
 	rm .ethna composer.lock vendor -rf
 
-test: project
+test: generate-files
 	test -d app
 	test -d www
 	test -e .ethna
