@@ -8,7 +8,9 @@ php:
 
 # custome build
 # see http://docs.travis-ci.com/user/customizing-the-build/
-install: make travis
+install:
+  - composer install
+  - make generate-files
 
 # see http://docs.travis-ci.com/user/build-configuration/
 script: make test

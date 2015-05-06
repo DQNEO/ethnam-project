@@ -1,7 +1,5 @@
 local:  composer-local  vendor project generate-files
 
-travis: composer-github vendor project generate-files
-
 composer-local:
 	ln -s -f composer.json.local composer.json
 
