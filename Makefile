@@ -1,18 +1,18 @@
-local:  composer-local  vendor project
+local:  composer-local  vendor project generate-files
 
-travis: composer-github vendor project
-
-project: vendor
-	vendor/bin/ethnam-generator add-project -b . My
-
-vendor:
-	composer install
+travis: composer-github vendor project generate-files
 
 composer-local:
 	ln -s -f composer.json.local composer.json
 
 composer-github:
 	ln -s -f composer.json.github composer.json
+
+vendor:
+	composer install
+
+project: vendor
+	vendor/bin/ethnam-generator add-project -b . My
 
 generate-files: project
 	vendor/bin/ethnam-generator add-action hello
