@@ -7,7 +7,7 @@
   ],
   "require" : {
     "ethnam/generator": "dev-master",
-    "dqneo/ethnam": "dev-master",
+    "ethnam/ethnam": "dev-master",
     "smarty/smarty" : "2.*"
   },
   "scripts" : {
